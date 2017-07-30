@@ -89,12 +89,19 @@ public class NetworkSwitcher : NetworkBehaviour {
         {
             case true:
                 {
-                   GameObject.Find(colName).GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOn");
+                    foreach (GameObject sw in GameObject.FindGameObjectsWithTag("Switcher"))
+                    {
+                        sw.GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOff");
+                    }
+                    GameObject.Find(colName).GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOn");
                     break;
                 }
             case false:
                 {
-                    GameObject.Find(colName).GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOff");
+                    foreach (GameObject sw in GameObject.FindGameObjectsWithTag("Switcher"))
+                    {
+                        sw.GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOff");
+                    }
                     break;
                 }
         }
