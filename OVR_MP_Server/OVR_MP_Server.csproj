@@ -181,7 +181,6 @@
     <Compile Include="Assets\OculusPlatform\Scripts\VoipPCMSourceNative.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\VoipSampleRate.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\WindowsPlatform.cs" />
-    <Compile Include="Assets\OSPNative\scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\OSPNative\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\OSPNative\scripts\ONSPAmbisonicsNative.cs" />
     <Compile Include="Assets\OSPNative\scripts\ONSPAudioSource.cs" />
@@ -219,8 +218,6 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
-    <Compile Include="Assets\OvrAvatar\Samples\GripPoses\Scripts\PoseEditHelper.cs" />
-    <Compile Include="Assets\OvrAvatar\Samples\RemoteLoopback\Scripts\RemoteLoopbackManager.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatar.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarAsset.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarAssetMesh.cs" />
@@ -247,6 +244,7 @@
     <Compile Include="Assets\Scripts\NetworkPlayer.cs" />
     <Compile Include="Assets\Scripts\NetworkPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\NetworkSwitcher.cs" />
+    <Compile Include="Assets\Scripts\ServerInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LICENSE.txt" />
