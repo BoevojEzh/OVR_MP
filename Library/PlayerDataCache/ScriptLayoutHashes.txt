@@ -135,6 +135,7 @@ e1b7ff29fb676ce423215b6b2e4a59e7 Assembly-CSharp.dll:.ONSPReflectionZone
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRResetOrientation
 19cb0918fa37b12d455ed65433a611f9 Assembly-CSharp.dll:.OVRScreenFade
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Oculus.Platform.StandalonePlatformSettings
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetworkSwitcher
 4b21a475fcdbf93662b1f31c2977c8f8 Assembly-CSharp.dll:Oculus.Platform.VoipAudioSourceHiLevel
 ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 74a6fefe8bd94289ab461e70916d7ac3 Assembly-CSharp.dll:.OVRGrabbable
@@ -185,4 +186,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarHand
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript.dll:.CharacterMotor
-d932feda7acb691e5b1b3264cffccaf4 Assembly-CSharp.dll:.NetworkSwitcher

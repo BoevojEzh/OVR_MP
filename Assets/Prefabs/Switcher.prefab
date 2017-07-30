@@ -22,11 +22,9 @@ GameObject:
   - component: {fileID: 33570739201242308}
   - component: {fileID: 65897986203522912}
   - component: {fileID: 23466684217329586}
-  - component: {fileID: 114495465688262672}
-  - component: {fileID: 114483198984987866}
   m_Layer: 0
   m_Name: Switcher
-  m_TagString: Untagged
+  m_TagString: Switcher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,48 +93,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 5}
   m_Center: {x: 0, y: 0, z: -2}
---- !u!114 &114483198984987866
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981081342477462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 241
-    i1: 42
-    i2: 108
-    i3: 150
-    i4: 191
-    i5: 142
-    i6: 147
-    i7: 20
-    i8: 232
-    i9: 30
-    i10: 91
-    i11: 178
-    i12: 149
-    i13: 252
-    i14: 184
-    i15: 26
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &114495465688262672
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981081342477462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5066a771fb2b140a9448bda5ca4757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nLight: {fileID: 0}
-  periodSndRpc: 0.05

@@ -5,31 +5,33 @@ using UnityEngine.Networking;
 
 public class NetworkSwitcher : NetworkBehaviour {
 
-    [SerializeField]
     private Light nLight;
-    [SerializeField]
-    private float periodSndRpc = 0.05f;
-
-    private float timeRpcLast = 0;
-
+    
     private bool nLightState;
-
+    private string switchName;
 
     private void OnTriggerEnter(Collider other)
     {
-
-            if (other.GetComponent<Collider>().tag == "Player")
+        if (isLocalPlayer)
+        {
+            if (other.GetComponent<Collider>().tag == "Switcher")
             {
-                nLightState = !nLight.enabled;              
-                CmdSwitchLight(nLightState);
-
+                CmdSwitchLight(!nLight.enabled, other.name);
             }
+        }
+            
 
     }
 
+
     // Use this for initialization
-    void Start () {
-       // nLight.enabled = true;
+    void Start ()
+    {
+        nLight = GameObject.FindGameObjectWithTag("Spotlight").GetComponent<Light>();
+        if (!isServer)
+        {
+            CmdRequestLightState();
+        }
     }
 
     // Update is called once per frame
@@ -37,51 +39,62 @@ public class NetworkSwitcher : NetworkBehaviour {
     {
         if (this.isServer)
         {
-            if (timeRpcLast + periodSndRpc < Time.time)
-            {
-                RpcSwitchLight(nLight.enabled);
-                timeRpcLast = Time.time;
-            }
+            //if ((timeRpcLast + periodSndRpc < Time.time) && (switchName != null) )
+            //{
+            //    RpcSwitchLight(nLightState, switchName);
+            //    timeRpcLast = Time.time;
+            //}
         }
     }
 
+    [Command]
+    private void CmdRequestLightState()
+    {
+        if(isServer)
+        {
+            RpcSwitchLight(nLight.enabled, "Switcher1");
+        }
+    }
 
     [Command]
-    private void CmdSwitchLight(bool newLightState)
+    private void CmdSwitchLight(bool newLightState, string colName)
     {
         if (isServer)
         {
             if (newLightState != nLight.enabled)
             {
-                // RpcSwitchLight(newLightState);
-                Debug.Log(newLightState);
-                SwitchLight(newLightState);
+                switchName = colName;
+                nLightState = newLightState;
+                SwitchLight(nLightState, switchName);
+                RpcSwitchLight(nLightState, switchName);
             }
         }
     }
 
     [ClientRpc]
-    private void RpcSwitchLight(bool newLightState)
+    private void RpcSwitchLight(bool newLightState, string colName)
     {
-        if(true)
+        if(!isServer)
         {
-            SwitchLight(newLightState);
+            //Debug.Log(colName);
+            SwitchLight(newLightState, colName);
         }
     }
 
-    private void SwitchLight(bool newLightState)
+    private void SwitchLight(bool newLightState, string colName)
     {
+        
         nLight.enabled = newLightState;
         switch (nLight.enabled)
         {
             case true:
                 {
-                    this.GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOn");
+                   GameObject.Find(colName).GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOn");
                     break;
                 }
             case false:
                 {
-                    this.GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOff");
+                    GameObject.Find(colName).GetComponent<Renderer>().material = Resources.Load<Material>("Materials/mSwitcherOff");
                     break;
                 }
         }
