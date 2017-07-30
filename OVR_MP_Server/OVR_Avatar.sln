@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVR_Avatar", "OVR_Avatar.csproj", "{CACC4362-773C-C819-E9E6-9319D11B87FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVR_Avatar.Editor", "OVR_Avatar.Editor.csproj", "{2C6F848D-C879-9FD0-CDF0-DC291D58BF88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CACC4362-773C-C819-E9E6-9319D11B87FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACC4362-773C-C819-E9E6-9319D11B87FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACC4362-773C-C819-E9E6-9319D11B87FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACC4362-773C-C819-E9E6-9319D11B87FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6F848D-C879-9FD0-CDF0-DC291D58BF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6F848D-C879-9FD0-CDF0-DC291D58BF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6F848D-C879-9FD0-CDF0-DC291D58BF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6F848D-C879-9FD0-CDF0-DC291D58BF88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

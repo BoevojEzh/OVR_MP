@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVR_MP_Server", "OVR_MP_Server.csproj", "{9BBF6818-7B53-2F13-35C3-96B1110BDA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVR_MP_Server.Editor", "OVR_MP_Server.Editor.csproj", "{55D70DBA-3280-564C-6B49-86A0D3CE6BA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBF6818-7B53-2F13-35C3-96B1110BDA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBF6818-7B53-2F13-35C3-96B1110BDA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBF6818-7B53-2F13-35C3-96B1110BDA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBF6818-7B53-2F13-35C3-96B1110BDA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D70DBA-3280-564C-6B49-86A0D3CE6BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D70DBA-3280-564C-6B49-86A0D3CE6BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D70DBA-3280-564C-6B49-86A0D3CE6BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D70DBA-3280-564C-6B49-86A0D3CE6BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
