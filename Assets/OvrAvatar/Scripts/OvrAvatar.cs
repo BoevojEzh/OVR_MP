@@ -464,7 +464,7 @@ public class OvrAvatar : MonoBehaviour
         ShowLeftController(StartWithControllers);
         ShowRightController(StartWithControllers);
         OvrAvatarSDKManager.Instance.RequestAvatarSpecification(
-            oculusUserID, this.AvatarSpecificationCallback);
+            1377451965625783, this.AvatarSpecificationCallback);
     }
 
     void Update()

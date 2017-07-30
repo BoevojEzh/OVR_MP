@@ -177,11 +177,12 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
+0842f52a6696d357d7289604d9466730 Assembly-CSharp.dll:.NetworkPlayerMovement
+5fcd84fd75630796c8c8a2c5bcba9312 Assembly-CSharp.dll:.NetworkPlayer
 7e926316ce20e4d45cb9a9aebc6e79e9 Assembly-CSharp.dll:.OVRGridCube
 069dbb2201dc5bbfc5610a4e530f0cd0 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderComponent
 4dfe33d9090a45557c2c14e3b464ad87 Assembly-CSharp.dll:.OVRLint
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarHand
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript.dll:.CharacterMotor
-5fcd84fd75630796c8c8a2c5bcba9312 Assembly-CSharp.dll:.NetworkPlayer
-0842f52a6696d357d7289604d9466730 Assembly-CSharp.dll:.NetworkPlayerMovement
+d932feda7acb691e5b1b3264cffccaf4 Assembly-CSharp.dll:.NetworkSwitcher

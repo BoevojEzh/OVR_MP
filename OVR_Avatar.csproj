@@ -245,6 +245,7 @@
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarTouchController.cs" />
     <Compile Include="Assets\Scripts\NetworkPlayer.cs" />
     <Compile Include="Assets\Scripts\NetworkPlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\NetworkSwitcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LICENSE.txt" />

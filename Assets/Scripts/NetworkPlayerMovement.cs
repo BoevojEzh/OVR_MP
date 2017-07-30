@@ -19,9 +19,7 @@ public class NetworkPlayerMovement : NetworkBehaviour{
 
     private float timeRpcLast = 0;
 
-   // [SyncVar]
     private Vector3 lastPosition;
-  //  [SyncVar]
     private Quaternion lastRotation;
 
     // Use this for initialization
@@ -31,12 +29,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
 	
 	// Update is called once per frame
 	void Update () {
-
-        if (!isLocalPlayer)
-        {
-            // InterpolatePosition(lastPosition);
-            // InterpolateRotation();
-        }
 
         if (this.isLocalPlayer)
         {
