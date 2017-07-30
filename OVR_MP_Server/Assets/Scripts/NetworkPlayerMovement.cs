@@ -51,8 +51,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
     private void FixedUpdate()
     {
 
-
-
         if (this.isServer)
         {
             if (timeRpcLast + periodSndRpc < Time.time)
@@ -63,7 +61,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
             }
 
         }
-
 
     }
 
@@ -85,6 +82,7 @@ public class NetworkPlayerMovement : NetworkBehaviour{
         if (this.isServer)
         {
             lastRotation = rot;
+            InterpolateRotation(rot);
         }
     }
 
@@ -93,7 +91,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
     {
         if (this.isClient)
         {
-            // this.transform.position = posNew;
             InterpolatePosition(posNew);
         }
     }
@@ -103,7 +100,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
     {
         if (this.isClient)
         {
-            //this.transform.rotation = rotNew;
             InterpolateRotation(rotNew);
         }
     }

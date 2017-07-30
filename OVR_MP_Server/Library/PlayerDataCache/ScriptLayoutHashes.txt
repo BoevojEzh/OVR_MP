@@ -1,5 +1,4 @@
 WindowsStandalone
-8e75c7ff572e377afe5aec0a3c77276b Assembly-UnityScript.dll:.ThirdPersonCamera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ONSPVersion
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarBody
 7df47d262399a6f845c2ed06b92cba9b Assembly-CSharp.dll:.OVRCameraRig
@@ -16,7 +15,6 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-d79de92723477d704d7beb523a6d339a Assembly-UnityScript.dll:.ThirdPersonController
 5979728add95abdc642051d92f726e95 Assembly-CSharp.dll:.OVRDebugHeadController
 b8d1a00393b74d938f7dc540c521a9f1 Assembly-CSharp.dll:.OVRManager
 069dbb2201dc5bbfc5610a4e530f0cd0 Assembly-CSharp.dll:.OvrAvatarRenderComponent
@@ -126,12 +124,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 a97206b1f732dc0aa9b23a14352f4399 Assembly-CSharp.dll:.OVRPlatformMenu
 13a6a1a75679b3c0344b1b6c7e825e34 Assembly-CSharp.dll:.OvrAvatarComponent
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarTouchController
-05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.FPSInputController
 e1b7ff29fb676ce423215b6b2e4a59e7 Assembly-CSharp.dll:.ONSPReflectionZone
 0f1ce9ab76b350392e54ea4fc47b4dde Assembly-CSharp.dll:.OVRRTOverlayConnector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OVRDebugInfo
 069dbb2201dc5bbfc5610a4e530f0cd0 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderPBSComponent
-43c901f5733b48f61b53f52e6c2855dc Assembly-UnityScript.dll:.PlatformInputController
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRResetOrientation
 19cb0918fa37b12d455ed65433a611f9 Assembly-CSharp.dll:.OVRScreenFade
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Oculus.Platform.StandalonePlatformSettings
@@ -142,7 +138,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 1e042027c649b7b536a46a4e0335362a Assembly-CSharp.dll:.OVRCubemapCapture
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRModeParms
 7da42ff76b471a89ac72bc31d7c7ad6d Assembly-CSharp.dll:.OVRGearVrControllerTest
-794fafc549057a72705d2401616e50a9 Assembly-CSharp.dll:.RemoteLoopbackManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ServerInfo
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -158,7 +154,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 58ea3d098767841a0513b059573cfc16 Assembly-CSharp.dll:.ONSPAmbisonicsNative
-783bf6d659235f53a950684dd61ab5b9 Assembly-CSharp.dll:.MouseLook
 5601a5517df0b1688b4d3e4cbd44d6d7 Assembly-CSharp.dll:Oculus.Platform.PlatformSettings
 7b7745d8d1ab7fe13f98bfffbf52c18d Assembly-CSharp.dll:.OVRWaitCursor
 06008b1aa666dd228809a6aded2262cd Assembly-CSharp.dll:.OvrAvatar
@@ -171,7 +166,6 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRChromaticAberration
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
-8034566cc95d936e93f4b77ff843d1ce Assembly-CSharp.dll:.PoseEditHelper
 6de6070780d7efa822923e689e617f4c Assembly-CSharp.dll:.OvrAvatarMeshInstance
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -186,4 +180,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarHand
 1df234784afa2cbe0613283a35c66908 Assembly-CSharp.dll:.NetworkManager_custom
-563daf171b5d1c7c75b1108951401223 Assembly-UnityScript.dll:.CharacterMotor

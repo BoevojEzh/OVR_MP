@@ -34,19 +34,6 @@ public class NetworkSwitcher : NetworkBehaviour {
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (this.isServer)
-        {
-            //if ((timeRpcLast + periodSndRpc < Time.time) && (switchName != null) )
-            //{
-            //    RpcSwitchLight(nLightState, switchName);
-            //    timeRpcLast = Time.time;
-            //}
-        }
-    }
-
     [Command]
     private void CmdRequestLightState()
     {
@@ -76,7 +63,6 @@ public class NetworkSwitcher : NetworkBehaviour {
     {
         if(!isServer)
         {
-            //Debug.Log(colName);
             SwitchLight(newLightState, colName);
         }
     }

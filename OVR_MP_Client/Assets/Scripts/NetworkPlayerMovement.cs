@@ -40,9 +40,7 @@ public class NetworkPlayerMovement : NetworkBehaviour{
             if (IsRotationChanged())
             {
                 CmdSendRotation(transform.rotation);
-            }
-
-             
+            }          
         }
 
 
@@ -92,7 +90,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
     {
         if (this.isClient)
         {
-            // this.transform.position = posNew;
             InterpolatePosition(posNew);
         }
     }
@@ -102,7 +99,6 @@ public class NetworkPlayerMovement : NetworkBehaviour{
     {
         if (this.isClient)
         {
-            //this.transform.rotation = rotNew;
             InterpolateRotation(rotNew);
         }
     }

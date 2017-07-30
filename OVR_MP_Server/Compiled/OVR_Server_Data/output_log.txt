@@ -1,0 +1,102 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     4060 MB
+    Driver:   22.21.13.8476
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: F:\Unity\Projects\OVR_MP_Both\OVR_MP_Server\Compiled\OVR_Server_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.020 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.782151 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 1fe4 -> priority: 1 
+  Thread -> id: 289c -> priority: 1 
+  Thread -> id: 28a4 -> priority: 1 
+  Thread -> id: 28ac -> priority: 1 
+  Thread -> id: 28b4 -> priority: 1 
+  Thread -> id: 28bc -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.256104 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 675.
+Total: 0.344845 ms (FindLiveObjects: 0.031623 ms CreateObjectMapping: 0.016263 ms MarkObjects: 0.276779 ms  DeleteObjects: 0.019576 ms)
+
+Player1Info
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unity v2017.1.0f3, Oculus Utilities v1.15.0, OVRPlugin v1.14.1, SDK v0.0.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OVRDebugInfo.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayerInternal(NetworkConnection, Int16)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayer(NetworkConnection, Int16)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayerMessageInternal(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+Player2Info
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OVRDebugInfo.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayerInternal(NetworkConnection, Int16)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayer(NetworkConnection, Int16)
+UnityEngine.Networking.NetworkManager:OnServerAddPlayerMessageInternal(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:62645} time {35962}, last rec time {33748} rtt {10} timeout {2000}
+Player not destroyed when connection disconnected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
